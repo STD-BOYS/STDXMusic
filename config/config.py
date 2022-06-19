@@ -26,6 +26,8 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001749480929"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "sᴛᴀʀ 🇽 ᴍᴜsɪᴄ​")
 
+HEROKU_MODE = getenv("HEROKU_MODE", "ENABLE")
+
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5470068285").split())
 )

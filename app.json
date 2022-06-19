@@ -53,6 +53,11 @@
         "value": " sᴛᴀʀ 🇽 ᴍᴜsɪᴄ",
         "required": false
       },
+      "HEROKU_MODE": {
+       "discription": " Enable this for your ",
+       "value": " ENABLE",
+       "required": true
+      },
       "SPOTIFY_CLIENT_ID": {
         "description": "Spotify Client Id",
         "value": "",
